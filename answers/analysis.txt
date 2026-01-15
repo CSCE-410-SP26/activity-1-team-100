@@ -1,0 +1,17 @@
+1. Process ID of sleep command: sleep command did NOT work
+2. Number of files in root directory: 5
+3. Available user programs in xv6: cat, echo, forktest, grep, init, kill, ln, ls, mkdir, rm, sh, stressfs usertests, grind, wc, zombie, logstress, forphan, dorphan
+
+BONUS:
+
+usertests:
+- Tests all of the programs and systems calls / combinations of them
+- Takes about 5 minutes
+
+forktest:
+- Tests fork functionality
+- Takes instant time
+
+stressfs:
+- Tests writing and reading capabilities with a high load on the filesystem. Trying to test stress and overload.
+- Takes about 1 second
